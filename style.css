@@ -215,19 +215,24 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(pics/Background.jpg) no-repeat;
+    justify-content: flex-end; 
+    background: url(pics/Background3.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+    padding-right: 5%; 
+    
 }
 
 .home .content{
     max-width: 60rem;
+    text-align: right;
 }
 
 .home .content h3{
     font-size: 4rem;
     text-transform: uppercase;
     color: white;
+    text-align: right;
 }
 
 .home .content p{
@@ -236,6 +241,7 @@ section{
     line-height: 1.8;
     padding: 1rem 0;
     color: #fff;
+    text-align: right;
 }
 .about .content p{
     font-size: 2rem;
