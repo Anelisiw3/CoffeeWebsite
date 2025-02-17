@@ -9,10 +9,10 @@ let cartBtn = document.querySelector('#cart-btn');
 // Shopping Cart functionality
 let cart = [];
 const menuItems = [
-    { id: 1, name: 'Espresso', price: 95.00, image: 'pics/cart-item' },
-    { id: 2, name: 'Cappuccino', price: 120.00, image: 'pics/cart-item2' },
-    { id: 3, name: 'Latte', price: 206.00, image: 'pics/cart-item3' },
-    { id: 4, name: 'Mocha', price: 150.00, image: 'pics/cart-item' }
+    { id: 1, name: 'Expresso', price: 95.00, image: 'pics/Expresso' },
+    { id: 2, name: 'Cappuccino', price: 120.00, image: 'pics/Dry-Cappucion' },
+    { id: 3, name: 'Latte', price: 206.00, image: 'pics/Latte' },
+    { id: 4, name: 'HazelNut', price: 150.00, image: 'pics/HazelNut' }
 ];
 
 // Menu button functionality
