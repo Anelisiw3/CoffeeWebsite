@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-aquiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Coffee Shop Design</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header class="header">
+    <a href="#" class="logo">
+        <img src="pics/logo2.jpg" width="200" height="150" alt="">
+    </a>
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#Menu">Menu</a>
+        <a href="#products">Products</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#blogs">Blogs</a>
+    </nav>
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+<div class="search-form">
+    <input type="search" id="search-box" placeholder="search here...">
+    <label for="search-box" class="fas fa-search"></label>
+</div>
+<div class="cart-items-container">
+    <div class="cart-item">
+        <span class="fas fa-times"></span>"
+        <img src="pics/cart-item" width="200" height="200" alt="">
+        <div class="content">
+            <h3>cart items 01</h3>
+            <div class="price">R95.00</div>
+        </div>
+    </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>"
+            <img src="pics/cart-item2" width="200" height="200" alt="">
+            <div class="content">
+                <h3>cart items 02</h3>
+                <div class="price">R120</div>
+            </div>
+        </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>"
+                <img src="pics/cart-item3" width="200" height="200" alt="">
+                <div class="content">
+                    <h3>cart items 03</h3>
+                    <div class="price">R206</div>
+                </div>
+            </div> 
+                <div class="cart-item">
+                    <span class="fas fa-times"></span>"
+                    <img src="pics/cart-item" width="200" height="200" alt="">
+                    <div class="content">
+                        <h3>cart items 04</h3>
+                        <div class="price">R150</div>
+                    </div>
+                </div>
+                <a href="#" class="btn">checkout now</a>
+</header>
+
+
+<section class="home" id="home">
+    <div class="content">
+        <h3> Start your day with fresh coffee</h3>
+        <p> Inorder for my day to be functional , Coffee first</p>
+        <a href="#" class="btn"> get yours now</a>
+
+    </div>
+</section>
+
+<section class="about" id="about">
+    <h1 class="heading"> <span>about</span> us</h1>
+    <div class="row">
+        <div class="image">
+            <img src="pics/coffee2.jpg" alt="" width="400" height="250">
+            </div>
+            <div class="content">
+                <h3>what makes our coffee special</h3>
+                <p> At Princess Aneh's Cafe`, our journey began with a simple love for rich,
+                     aromatic coffee and a passion for bringing people together. What started as a
+                     small café has grown into a warm and inviting space where coffee lovers can 
+                     enjoy handcrafted brews made from the finest beans around the world.</p>
+                
+                <a href="#" class="btn">learn More</a>
+                </div>
+
+
+</section>
+
+<section class="menu" id="Menu">
+    <h1 class="heading">our <span>menu</span></h1>
+    <div class="menu-container">
+        <div class="menu-item" data-id="1">
+            <img src="pics/cart-item" alt="Espresso">
+            <h3>Espresso</h3>
+            <div class="price">R95.00</div>
+            <button class="btn" onclick="addToCart(1)">Add to Cart</button>
+        </div>
+        <div class="menu-item" data-id="2">
+            <img src="pics/cart-item2" alt="Cappuccino">
+            <h3>Cappuccino</h3>
+            <div class="price">R120.00</div>
+            <button class="btn" onclick="addToCart(2)">Add to Cart</button>
+        </div>
+        <div class="menu-item" data-id="3">
+            <img src="pics/cart-item3" alt="Latte">
+            <h3>Latte</h3>
+            <div class="price">R206.00</div>
+            <button class="btn" onclick="addToCart(3)">Add to Cart</button>
+        </div>
+        <div class="menu-item" data-id="4">
+            <img src="pics/cart-item" alt="Mocha">
+            <h3>Mocha</h3>
+            <div class="price">R150.00</div>
+            <button class="btn" onclick="addToCart(4)">Add to Cart</button>
+        </div>
+    </div>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
