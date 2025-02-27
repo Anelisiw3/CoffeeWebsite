@@ -55,7 +55,7 @@ The basic styles include layout, buttons, and cart display. The .active class is
 Smooth animations are added for notifications and cart interactions using CSS keyframes.
 
 ## Demo
-You can view a live demo of the website on GitHub Pages.
+You can view a live demo of the website https://anelisiw3.github.io/CoffeeWebsite/
 
 Customization
 Feel free to customize the menu items, images, and styling. You can easily add more products by modifying the menuItems array in the JavaScript.
